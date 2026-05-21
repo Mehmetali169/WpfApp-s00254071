@@ -15,5 +15,9 @@ namespace WpfApp_s00254071
         public string ContactNumber { get; set; }
         public string MembershipType { get; set; }
 
+        public List<TrainingSession> TrainingSessions { get; set; }
+
+
+
     }
 }

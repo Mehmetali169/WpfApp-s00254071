@@ -13,6 +13,7 @@ namespace WpfApp_s00254071
         public string SessionType { get; set; }
         public int DurationMinutes { get; set; }
         public string CoachNotes { get; set; }
-
+        public int MemberId { get; set; }// FK
+        public Member Member { get; set; }// navigation
     }
 }
